@@ -8,4 +8,6 @@
 ## Screenshot Final Project
 ![screenshot final project](./assets/img/screenshot-project.png)
 
-
+## Live Demo 
+* The counter is deployed and can be accessed at the following URL
+https://counter-start2impact-project.netlify.app
