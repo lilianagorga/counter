@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient( 90deg, rgba(255, 132, 100, 1) 0%, rgba(253, 105, 165, 1) 100%);

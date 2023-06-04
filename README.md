@@ -6,4 +6,6 @@
 * Vanilla JavaScript
 
 ## Screenshot Final Project
-![screenshot final project](./img/screenshot-project.png)
+![screenshot final project](./assets/img/screenshot-project.png)
+
+
