@@ -3,13 +3,13 @@ let count = 0;
 const container = document.createElement('div');
 container.id = 'container';
 
-const headingH1 = document.createElement('h1');
-headingH1.classList.add('heading');
-headingH1.textContent = "Counter";
+const counterHeader = document.createElement('h1');
+counterHeader.classList.add('heading');
+counterHeader.textContent = "Counter";
 
-const valueSpan = document.createElement('span');
-valueSpan.id = 'value';
-valueSpan.textContent = "0";
+const counterNumber = document.createElement('span');
+counterNumber.id = 'value';
+counterNumber.textContent = "0";
 
 const btnContainer = document.createElement('div');
 btnContainer.id = 'btnContainer';
@@ -26,7 +26,7 @@ const btnIncrease = document.createElement('button');
 btnIncrease.classList.add('btn', 'increase');
 btnIncrease.textContent = "increase";
 
-container.append(headingH1, valueSpan, btnContainer);
+container.append(counterHeader, counterNumber, btnContainer);
 btnContainer.append(btnDecrease, btnReset, btnIncrease);
 document.getElementById('main').append(container);
 
