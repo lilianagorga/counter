@@ -25,13 +25,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.main {
+#main {
   min-height: 100vh;
   display: grid;
   place-items: center;
 }
 
-.container {
+#container {
   text-align: center;
 }
 
