@@ -1,15 +1,15 @@
 let count = 0;
 
-const div = document.createElement('div');
-div.id = 'container';
+const container = document.createElement('div');
+container.id = 'container';
 
-const h1 = document.createElement('h1');
-h1.classList.add('heading');
-h1.textContent = "Counter";
+const headingH1 = document.createElement('h1');
+headingH1.classList.add('heading');
+headingH1.textContent = "Counter";
 
-const span = document.createElement('span');
-span.id = 'value';
-span.textContent = "0";
+const valueSpan = document.createElement('span');
+valueSpan.id = 'value';
+valueSpan.textContent = "0";
 
 const btnContainer = document.createElement('div');
 btnContainer.id = 'btnContainer';
@@ -26,9 +26,9 @@ const btnIncrease = document.createElement('button');
 btnIncrease.classList.add('btn', 'increase');
 btnIncrease.textContent = "increase";
 
-div.append(h1, span, btnContainer);
+container.append(headingH1, valueSpan, btnContainer);
 btnContainer.append(btnDecrease, btnReset, btnIncrease);
-document.getElementById('main').append(div);
+document.getElementById('main').append(container);
 
 const value = document.getElementById('value');
 const buttons = document.querySelectorAll('.btn');
